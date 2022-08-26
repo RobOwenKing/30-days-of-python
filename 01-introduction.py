@@ -1,9 +1,12 @@
+import sys
+
 # 1
 # All in the interactive shell
 
 # 2
 # 2.1
-# Version check
+print("---2.1---")
+print("You are currently using Python version", sys.version)
 
 # 2.2
 # Blame black for the ugly formatting
