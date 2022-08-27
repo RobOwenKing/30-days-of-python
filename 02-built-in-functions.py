@@ -73,3 +73,7 @@ print("---2.6---")
 user_name = input("What's your name? ")
 user_country = input("Where are you from? ")
 user_age = int(input("How old are you? "))
+
+# 2.7
+print("---2.7---")
+help("keywords")
