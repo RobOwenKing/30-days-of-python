@@ -67,3 +67,9 @@ radius = 30
 print_circle_details(radius)
 input_radius = int(input("Give a radius: "))
 print_circle_details(input_radius)
+
+# 2.6
+print("---2.6---")
+user_name = input("What's your name? ")
+user_country = input("Where are you from? ")
+user_age = int(input("How old are you? "))
