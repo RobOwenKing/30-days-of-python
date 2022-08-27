@@ -22,3 +22,7 @@ print(type(a_set))  # Should print <class 'set'>
 # 2.2
 print("---2.2---")
 print("The given first_name is of length", len(first_name))
+
+# 2.3
+print("---2.3---")
+print("Is first_name longer than last_name?", len(first_name) > len(last_name))
