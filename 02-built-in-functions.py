@@ -1,3 +1,5 @@
+import math
+
 # 30 Days of Python: Day 02
 print("30 Days of Python: Day 02 - Built-In Functions")
 
@@ -30,10 +32,19 @@ print("Is first_name longer than last_name?", len(first_name) > len(last_name))
 # 2.4
 print("---2.4---")
 num_one, num_two = 5, 4
+
 total = num_one + num_two
-diff = num_two - num_one
+diff = num_one - num_two
 product = num_one * num_two
 division = num_one / num_two
-remainder = num_two % num_one
+remainder = num_one % num_two
 exp = num_one**num_two
 floor_division = num_one // num_two
+
+print(num_one, "+", num_two, "=", total)
+print(num_one, "-", num_two, "=", diff)
+print(num_one, "*", num_two, "=", product)
+print(num_one, "/", num_two, "=", division)
+print(num_one, "%", num_two, "=", remainder)
+print(num_one, "**", num_two, "=", exp)
+print(num_one, "//", num_two, "=", floor_division)
