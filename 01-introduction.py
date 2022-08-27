@@ -1,5 +1,8 @@
 import sys
 
+# 30 Days of Python: Day 01
+print("30 Days of Python: Day 01 - Introduction")
+
 # 1
 # All in the interactive shell
 
