@@ -26,3 +26,14 @@ print("The given first_name is of length", len(first_name))
 # 2.3
 print("---2.3---")
 print("Is first_name longer than last_name?", len(first_name) > len(last_name))
+
+# 2.4
+print("---2.4---")
+num_one, num_two = 5, 4
+total = num_one + num_two
+diff = num_two - num_one
+product = num_one * num_two
+division = num_one / num_two
+remainder = num_two % num_one
+exp = num_one**num_two
+floor_division = num_one // num_two
