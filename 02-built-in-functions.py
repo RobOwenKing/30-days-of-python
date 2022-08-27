@@ -48,3 +48,22 @@ print(num_one, "/", num_two, "=", division)
 print(num_one, "%", num_two, "=", remainder)
 print(num_one, "**", num_two, "=", exp)
 print(num_one, "//", num_two, "=", floor_division)
+
+# 2.5
+print("---2.5---")
+
+
+def print_circle_details(r):
+    area_of_circle = math.pi * (r**2)
+    circum_of_circle = 2 * math.pi * r
+    print(
+        "A circle with radius {} has area {} and circumference {}".format(
+            r, area_of_circle, circum_of_circle
+        )
+    )
+
+
+radius = 30
+print_circle_details(radius)
+input_radius = int(input("Give a radius: "))
+print_circle_details(input_radius)
