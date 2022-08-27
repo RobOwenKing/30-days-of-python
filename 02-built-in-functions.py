@@ -18,3 +18,7 @@ print(type(is_true))  # Should print <class 'bool'>
 print(type(a_list))  # Should print <class 'list'>
 print(type(a_tuple))  # Should print <class 'tuple'>
 print(type(a_set))  # Should print <class 'set'>
+
+# 2.2
+print("---2.2---")
+print("The given first_name is of length", len(first_name))
