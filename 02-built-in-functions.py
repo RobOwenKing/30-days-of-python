@@ -7,7 +7,7 @@ last_name = "McFakeface"
 full_name = first_name + " " + last_name
 year = 1879
 is_true = True
-ma_str, ma_int, ma_set = "multiple assigments", 42, {1, 2}
+a_list, a_tuple, a_set = [1, 2], (1, 2), {1, 2}
 
 # 2
 # 2.1
@@ -15,4 +15,6 @@ print("---2.1---")
 print(type(full_name))  # Should print <class 'str'>
 print(type(year))  # Should print <class 'int'>
 print(type(is_true))  # Should print <class 'bool'>
-print(type(ma_set))  # Should print <class 'set'>
+print(type(a_list))  # Should print <class 'list'>
+print(type(a_tuple))  # Should print <class 'tuple'>
+print(type(a_set))  # Should print <class 'set'>

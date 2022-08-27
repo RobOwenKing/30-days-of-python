@@ -13,4 +13,4 @@ year = 1879
 is_married = False
 is_true = True
 is_light_on = True
-ma_str, ma_int, ma_set = "multiple assigments", 42, {1, 2}
+a_list, a_tuple, a_set = [1, 2], (1, 2), {1, 2}
