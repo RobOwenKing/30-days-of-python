@@ -40,6 +40,7 @@ print("The area of the circle is", math.pi * (float(radius) ** 2))
 print("The circumference of the circle is", 2 * math.pi * float(radius))
 """
 # 8
+"""
 print("---8---")
 x_1 = 1
 x_2 = 2
@@ -49,13 +50,32 @@ y_intercept = (2 * 0) - 2
 print(
     "Slope: {}; x = 0, y = {}; x = {}, y = 0".format(slope_8, y_intercept, x_intercept)
 )
+"""
 # 9
+"""
 print("---9---")
 x_1, y_1 = 2, 2
 x_2, y_2 = 6, 10
 slope_9 = (y_2 - y_1) / (x_2 - x_1)
 euc_dist = ((y_2 - y_1) ** 2 + (x_2 - x_1) ** 2) ** 0.5
 print("Slope: {}; Euclidean distance: {}".format(slope_9, euc_dist))
+"""
 # 10
+"""
 print("---10---")
 print("Does the slope in 8 equal the slope in 9?", slope_8 == slope_9)
+"""
+# 11
+print("---11---")
+
+
+def calculate_y(x):
+    return (x**2) + (6 * x) + 9
+
+
+print("0 => {}".format(calculate_y(0)))
+print("1 => {}".format(calculate_y(1)))
+print("2 => {}".format(calculate_y(2)))
+print("10 => {}".format(calculate_y(10)))
+print("-1 => {}".format(calculate_y(-1)))
+print("-3 => {}".format(calculate_y(-3)))
