@@ -66,6 +66,7 @@ print("---10---")
 print("Does the slope in 8 equal the slope in 9?", slope_8 == slope_9)
 """
 # 11
+"""
 print("---11---")
 
 
@@ -79,3 +80,24 @@ print("2 => {}".format(calculate_y(2)))
 print("10 => {}".format(calculate_y(10)))
 print("-1 => {}".format(calculate_y(-1)))
 print("-3 => {}".format(calculate_y(-3)))
+"""
+# 12
+print("---12---")
+print('The word "dragon" is {} characters long.'.format(len("dragon")))
+print('Does len("python") != len("dragon")?', len("python") != len("dragon"))
+# 13
+print("---13---")
+print(
+    'Is "on" a substring of both "python" and "dragon"?',
+    "on" in "python" and "on" in "dragon",
+)
+# 14
+print("---14---")
+test = "jargon" in "I hope this course is not full of jargon."
+print(test)
+# 15
+print("---15---")
+print(
+    'Is "no" not a substring of both "python" and "dragon"?',
+    "no" not in "python" and "no" not in "dragon",
+)
