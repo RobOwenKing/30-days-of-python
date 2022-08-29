@@ -121,3 +121,20 @@ print('type("10") == type(10)?', type("10") == type(10))
 print("---20---")
 print(int("9.8") == 10)  # This breaks!
 """
+# 21
+print("---21---")
+hrs = int(input("Enter hours: "))
+rph = int(input("Enter rate per hour: "))
+print("Your weekly earnings are {}.".format(hrs * rph))
+# 22
+print("---22---")
+years = float(input("Enter a number of years: "))
+print(
+    "That's equivalent to, ignoring leap years, {} seconds".format(
+        years * 365 * 24 * 60 * 60
+    )
+)
+# 23
+print("---23---")
+for i in range(1, 6):
+    print(" ".join([str(i ** abs(exp)) for exp in range(-1, 4)]))
