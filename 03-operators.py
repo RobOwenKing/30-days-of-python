@@ -101,3 +101,23 @@ print(
     'Is "no" not a substring of both "python" and "dragon"?',
     "no" not in "python" and "no" not in "dragon",
 )
+# 16
+print("---16---")
+length = len("python")
+print("As a float:", float(length))
+print("As a string:", str(length))
+# 17
+print("---17---")
+print("Is 17 an even number?", 17 % 2 == 0)
+print("Is 18 an even number?", 18 % 2 == 0)
+# 18
+print("---18---")
+print("7 // 3 == int(2.7)?", 7 // 3 == int(2.7))
+# 19
+print("---19---")
+print('type("10") == type(10)?', type("10") == type(10))
+# 20
+"""
+print("---20---")
+print(int("9.8") == 10)  # This breaks!
+"""
