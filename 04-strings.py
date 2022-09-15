@@ -43,6 +43,15 @@ print("Python For Everyone".replace("Everyone", "All"))
 # 13
 print("---13---")
 print("Coding For All".split(" "))
-# 13
-print("---13---")
+# 14
+print("---14---")
 print("Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon".split(","))
+# 15
+print("---15---")
+print(f"\"{'Coding For All'[0]}\"")
+# 16
+print("---16---")
+print(f"\"{'Coding For All'[-1]}\"")
+# 17
+print("---17---")
+print(f"\"{'Coding For All'[10]}\"")
