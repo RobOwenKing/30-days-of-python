@@ -29,3 +29,14 @@ print("Coding For All".swapcase())
 # 9
 print("---9---")
 print("Coding For All"[:6])
+# 10
+print("---10---")
+print("Coding For All".find("Coding"), "// find")
+print("Coding" in "Coding For All", "// in")
+print("Coding For All".index("Coding"), "// index")
+# 11
+print("---11---")
+print("Coding For All".replace("Coding", "Python"))
+# 12
+print("---12---")
+print("Python For Everyone".replace("Everyone", "All"))
