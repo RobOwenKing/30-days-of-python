@@ -40,3 +40,9 @@ print("Coding For All".replace("Coding", "Python"))
 # 12
 print("---12---")
 print("Python For Everyone".replace("Everyone", "All"))
+# 13
+print("---13---")
+print("Coding For All".split(" "))
+# 13
+print("---13---")
+print("Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon".split(","))
