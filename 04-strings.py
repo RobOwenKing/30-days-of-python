@@ -76,3 +76,12 @@ print("Coding For All".index("F"))
 # 22
 print("---22---")
 print("Coding For All People".rfind("l"))
+# 23
+print("---23---")
+long_string = "You cannot end a sentence with because because because is a conjunction"
+print(long_string.index("because"), "#index")
+print(long_string.find("because"), "#find")
+# 24
+print("---24---")
+print(long_string.rindex("because"), "#rindex")
+print(long_string.rfind("because"), "#rfind")
