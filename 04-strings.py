@@ -55,3 +55,15 @@ print(f"\"{'Coding For All'[-1]}\"")
 # 17
 print("---17---")
 print(f"\"{'Coding For All'[10]}\"")
+# 18
+print("---18---")
+
+
+def abbreviate(str):
+    return "".join([s[0] for s in str.split()])
+
+
+print(abbreviate("Python For Everyone"))
+# 19
+print("---19---")
+print(abbreviate("Coding For All"))
