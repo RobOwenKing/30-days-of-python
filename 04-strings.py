@@ -93,3 +93,9 @@ end = start + len(substr)
 print(long_string[:start] + long_string[end:])
 # 26 is the same as 23
 # 27 is the same as 25
+# 28
+print("---28---")
+print("Coding For All".startswith("Coding"))
+# 29
+print("---29---")
+print("Coding For All".endswith("Coding"))
