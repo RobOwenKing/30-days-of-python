@@ -67,3 +67,12 @@ print(abbreviate("Python For Everyone"))
 # 19
 print("---19---")
 print(abbreviate("Coding For All"))
+# 20
+print("---20---")
+print("Coding For All".index("C"))
+# 21
+print("---21---")
+print("Coding For All".index("F"))
+# 22
+print("---22---")
+print("Coding For All People".rfind("l"))
