@@ -31,9 +31,9 @@ print("---9---")
 print("Coding For All"[:6])
 # 10
 print("---10---")
-print("Coding For All".find("Coding"), "// find")
-print("Coding" in "Coding For All", "// in")
-print("Coding For All".index("Coding"), "// index")
+print("Coding For All".find("Coding"), "# find")
+print("Coding" in "Coding For All", "# in")
+print("Coding For All".index("Coding"), "# index")
 # 11
 print("---11---")
 print("Coding For All".replace("Coding", "Python"))
@@ -79,9 +79,17 @@ print("Coding For All People".rfind("l"))
 # 23
 print("---23---")
 long_string = "You cannot end a sentence with because because because is a conjunction"
-print(long_string.index("because"), "#index")
-print(long_string.find("because"), "#find")
+print(long_string.index("because"), "# index")
+print(long_string.find("because"), "# find")
 # 24
 print("---24---")
-print(long_string.rindex("because"), "#rindex")
-print(long_string.rfind("because"), "#rfind")
+print(long_string.rindex("because"), "# rindex")
+print(long_string.rfind("because"), "# rfind")
+# 25
+print("---25---")
+substr = "because because because"
+start = long_string.index(substr)
+end = start + len(substr)
+print(long_string[:start] + long_string[end:])
+# 26 is the same as 23
+# 27 is the same as 25
