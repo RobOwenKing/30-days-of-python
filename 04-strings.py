@@ -99,3 +99,6 @@ print("Coding For All".startswith("Coding"))
 # 29
 print("---29---")
 print("Coding For All".endswith("Coding"))
+# 30
+print("---30---")
+print(f"\"{'   Coding For All      '.strip()}\"")  # "" to prove whitespace gone
