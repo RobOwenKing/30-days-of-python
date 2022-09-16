@@ -102,3 +102,37 @@ print("Coding For All".endswith("Coding"))
 # 30
 print("---30---")
 print(f"\"{'   Coding For All      '.strip()}\"")  # "" to prove whitespace gone
+# 31
+print("---31---")
+print("30DaysOfPython".isidentifier(), '# "30DaysOfPython".isidentifier()')
+print('Because "30DaysOfPython" starts with a digit')
+print(
+    "thirty_days_of_python".isidentifier(), '# "thirty_days_of_python".isidentifier()'
+)
+# 32
+print("---32---")
+print(" # ".join(["Django", "Flask", "Bottle", "Pyramid", "Falcon"]))
+# 33
+print("---33---")
+ml_str = """I am enjoying this challenge.
+I just wonder what is next."""
+print(ml_str.split("\n"))
+# 34
+print("---34---")
+equation = """radius = {}
+area = 3.14 * radius ** 2
+The area of a circle with radius {} is {} meters square."""
+radius = 10
+print(equation.format(radius, radius, 3.14 * radius**2))
+# 35
+print("---35---")
+a = 8
+b = 6
+equations = f"""{a} + {b} = {a+b}
+{a} - {b} = {a - b}
+{a} * {b} = {a * b}
+{a} / {b} = {round(a / b, 2)}
+{a} % {b} = {a % b}
+{a} // {b} = {a // b}
+{a} ** {b} = {a ** b}"""
+print(equations)
