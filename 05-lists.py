@@ -23,6 +23,17 @@ print("---5---")
 mixed_data_types = ["string", 42, 4.2, False]
 print(mixed_data_types)
 # 6
-print("---6---")
+# print("---6---")
 it_companies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"]
+# 7
+print("---7---")
 print(it_companies)
+# 8
+print("---8---")
+len_itc = len(it_companies)
+print(len_itc)
+# 9
+print("---9---")
+print(f"First company: {it_companies[0]}")
+print(f"Middle company: {it_companies[len_itc//2]}")
+print(f"Last company: {it_companies[-1]}")
