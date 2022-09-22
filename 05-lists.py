@@ -18,3 +18,11 @@ print("---4---")
 print(f"First item: {more_than_five[0]}")
 print(f"Middle item: {more_than_five[len_mtf//2]}")
 print(f"Last item: {more_than_five[-1]}")
+# 5
+print("---5---")
+mixed_data_types = ["string", 42, 4.2, False]
+print(mixed_data_types)
+# 6
+print("---6---")
+it_companies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"]
+print(it_companies)
