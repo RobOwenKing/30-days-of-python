@@ -37,3 +37,11 @@ print("---9---")
 print(f"First company: {it_companies[0]}")
 print(f"Middle company: {it_companies[len_itc//2]}")
 print(f"Last company: {it_companies[-1]}")
+# 10
+print("---10---")
+it_companies[0] = "Meta"
+print(it_companies)
+# 11
+print("---11---")
+it_companies.append("Samsung")
+print(it_companies)
