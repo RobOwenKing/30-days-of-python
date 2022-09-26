@@ -53,3 +53,10 @@ print(it_companies)
 print("---13---")
 it_companies[0] = it_companies[0].upper()
 print(it_companies)
+# 14
+print("---14---")
+print("; ".join(it_companies))
+# 15
+print("---15---")
+print('"META" in it_companies?', "META" in it_companies)
+print('"Meta" in it_companies?', "Meta" in it_companies)
