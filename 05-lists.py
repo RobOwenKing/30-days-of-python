@@ -66,3 +66,7 @@ print(f"sorted(): {sorted(it_companies)}")
 print(f"it_companies: {it_companies}")
 print(f".sort(): {it_companies.sort()}")
 print(f"it_companies: {it_companies}")
+# 17
+print("---17---")
+print(f".reverse(): {it_companies.reverse()}")
+print(f"it_companies: {it_companies}")
