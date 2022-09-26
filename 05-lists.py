@@ -1,3 +1,5 @@
+import math
+
 # 30 Days of Python: Day 04
 print("30 Days of Python: Day 05 - Lists")
 
@@ -70,3 +72,12 @@ print(f"it_companies: {it_companies}")
 print("---17---")
 print(f".reverse(): {it_companies.reverse()}")
 print(f"it_companies: {it_companies}")
+# 18
+print("---18---")
+print(it_companies[:3])
+print(it_companies[-3:])
+mid = len(it_companies) / 2
+print(it_companies[math.floor(mid - 0.5) : math.ceil(mid + 0.5)])
+# test = [1, 2, 3, 4]
+# mid = len(test) / 2
+# print(test[math.floor(mid - 0.5) : math.ceil(mid + 0.5)])
