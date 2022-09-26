@@ -45,3 +45,11 @@ print(it_companies)
 print("---11---")
 it_companies.append("Samsung")
 print(it_companies)
+# 12
+print("---12---")
+it_companies.insert(len(it_companies) // 2, "Mozilla")
+print(it_companies)
+# 13
+print("---13---")
+it_companies[0] = it_companies[0].upper()
+print(it_companies)
