@@ -75,7 +75,11 @@ print(f"it_companies: {it_companies}")
 # 18
 print("---18---")
 print(it_companies[:3])
+# 19
+print("---19---")
 print(it_companies[-3:])
+# 20
+print("---20---")
 mid = len(it_companies) / 2
 print(it_companies[math.floor(mid - 0.5) : math.ceil(mid + 0.5)])
 # test = [1, 2, 3, 4]
