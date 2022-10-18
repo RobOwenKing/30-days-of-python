@@ -85,3 +85,21 @@ print(it_companies[math.floor(mid - 0.5) : math.ceil(mid + 0.5)])
 # test = [1, 2, 3, 4]
 # mid = len(test) / 2
 # print(test[math.floor(mid - 0.5) : math.ceil(mid + 0.5)])
+# 21
+print("---21---")
+print(it_companies)
+it_companies.pop(0)
+print(it_companies)
+# 22
+print("---22---")
+mid = math.ceil(len(it_companies) / 2)
+it_companies.pop(mid - 1)
+# If new length odd, original was even
+# => Need to delete a second element
+if len(it_companies) % 2 == 1:
+    it_companies.pop(mid - 1)
+print(it_companies)
+# 23
+print("---23---")
+it_companies.pop()
+print(it_companies)
