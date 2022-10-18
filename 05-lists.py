@@ -103,3 +103,14 @@ print(it_companies)
 print("---23---")
 it_companies.pop()
 print(it_companies)
+# 24
+print("---24---")
+it_companies.clear()
+print(it_companies)
+# 25
+print("---25---")
+del it_companies
+try:
+  print(it_companies)
+except NameError as e:
+  print(e)
