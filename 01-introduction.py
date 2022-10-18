@@ -4,9 +4,12 @@ import sys
 print("30 Days of Python: Day 01 - Introduction")
 
 # 1
-# All in the interactive shell
+print("\n###LEVEL 1###")
+print("All in the interactive shell")
 
 # 2
+print("\n###LEVEL 2###")
+
 # 2.1
 print("---2.1---")
 print("You are currently using Python version", sys.version)
@@ -40,6 +43,8 @@ print(type(["Asabeneh", "Python", "Finland"]))  # Should print <class 'list'>
 print(type("Fakename McFakeface"))  # Should print <class 'str'>
 
 # 3
+print("\n###LEVEL 3###")
+
 # 3.1
 print("---3.1---")
 print(type(42))  # Should print <class 'int'>

@@ -12,6 +12,8 @@ is_true = True
 a_list, a_tuple, a_set = [1, 2], (1, 2), {1, 2}
 
 # 2
+print("\n###LEVEL 2###")
+
 # 2.1
 print("---2.1---")
 print(type(full_name))  # Should print <class 'str'>
