@@ -168,8 +168,14 @@ print(f"Median: {median(ages)}")
 
 # 2.1.d
 print("---2.1 d---")
-print(f"Mean: {sum(ages)/len(ages)}")
+mean = sum(ages) / len(ages)
+print(f"Mean: {mean}")
 
 # 2.1.e
 print("---2.1 e---")
 print(f"Range: {max_age - min_age}")
+
+# 2.1.f
+print("---2.1 f---")
+print(f"max - mean: {abs(max_age-mean)}")
+print(f"mean - min: {abs(min_age-mean)}")
