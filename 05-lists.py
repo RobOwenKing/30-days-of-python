@@ -131,3 +131,45 @@ full_stack.insert(i, "SQL")
 full_stack.insert(i, "Python")
 print(f"joined_list: {joined_list}")
 print(f"full_stack: {full_stack}")
+
+# 2
+print("\n###LEVEL 2###")
+
+# 2.1
+print("---2.1---")
+
+# 2.1 a
+print("---2.1 a---")
+ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+ages.sort()
+print(ages)
+max_age = max(ages)
+min_age = min(ages)
+print(f"Max: {max_age}, Min: {min_age}")
+
+# 2.1.b
+print("---2.1 b---")
+ages.insert(0, min_age)
+ages.append(max_age)
+print(ages)
+
+# 2.1.c
+print("---2.1 c---")
+
+
+def median(lst):
+    lst_mid = int(len(lst) / 2)
+    if len(lst) % 2 == 1:
+        return lst[lst_mid]
+    return (lst[lst_mid - 1] + lst[lst_mid]) / 2
+
+
+print(f"Median: {median(ages)}")
+
+# 2.1.d
+print("---2.1 d---")
+print(f"Mean: {sum(ages)/len(ages)}")
+
+# 2.1.e
+print("---2.1 e---")
+print(f"Range: {max_age - min_age}")
