@@ -111,6 +111,20 @@ print(it_companies)
 print("---25---")
 del it_companies
 try:
-  print(it_companies)
+    print(it_companies)
 except NameError as e:
-  print(e)
+    print(e)
+# 26
+print("---26---")
+front_end = ["HTML", "CSS", "JS", "React", "Redux"]
+back_end = ["Node", "Express", "MongoDB"]
+joined_list = front_end + back_end
+print(joined_list)
+# 27
+print("---27---")
+full_stack = joined_list.copy()
+i = full_stack.index("Redux") + 1
+full_stack.insert(i, "SQL")
+full_stack.insert(i, "Python")
+print(f"joined_list: {joined_list}")
+print(f"full_stack: {full_stack}")
