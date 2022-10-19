@@ -1,3 +1,4 @@
+import json
 import math
 
 from data import countries
@@ -208,3 +209,7 @@ print("---2.4---")
 countries_2 = ["China", "Russia", "USA", "Finland", "Sweden", "Norway", "Denmark"]
 print(f"Large countries: {countries_2[:3]}")
 print(f"Nordic countries: {countries_2[3:]}")
+
+file = open("./data/countries.json")
+data = json.load(file)
+print(data)
