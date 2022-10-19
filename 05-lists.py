@@ -1,7 +1,7 @@
 import json
 import math
 
-from data import countries
+# from data import countries
 
 # 30 Days of Python: Day 04
 print("30 Days of Python: Day 05 - Lists")
@@ -186,6 +186,9 @@ print(f"mean - min: {abs(min_age-mean)}")
 # 2.2
 print("---2.2---")
 
+file = open("./data/countries.json")
+data = json.load(file)
+countries = data["countries"]
 
 def find_middle(lst):
     lst_mid = int(len(lst) / 2)
@@ -194,13 +197,13 @@ def find_middle(lst):
     return [lst[lst_mid - 1], lst[lst_mid]]
 
 
-print(find_middle(countries.countries))
+print(find_middle(countries))
 
 # 2.3
 print("---2.3---")
-mid_point = math.ceil(len(countries.countries) / 2)
-first_half = countries.countries[:mid_point]
-second_half = countries.countries[mid_point:]
+mid_point = math.ceil(len(countries) / 2)
+first_half = countries[:mid_point]
+second_half = countries[mid_point:]
 print(f"{len(first_half)} items: {first_half[0]} to {first_half[-1]}")
 print(f"{len(second_half)} items: {second_half[0]} to {second_half[-1]}")
 
@@ -210,6 +213,3 @@ countries_2 = ["China", "Russia", "USA", "Finland", "Sweden", "Norway", "Denmark
 print(f"Large countries: {countries_2[:3]}")
 print(f"Nordic countries: {countries_2[3:]}")
 
-file = open("./data/countries.json")
-data = json.load(file)
-print(data)
